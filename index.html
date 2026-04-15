@@ -2,113 +2,52 @@
 <html>
    <head>
       <title>Web Saya</title>
-
-      <style>
-         html,
-         body {
-            height: 100%;
-            margin: 0;
-         }
-
-         body {
-            background-color: #ddd;
-         }
-
-         table {
-            width: 100%;
-            height: 100%;
-            border-collapse: collapse;
-            background-color: white;
-         }
-
-         .header {
-            background-image: url("11.jpg");
-            background-size: cover;
-            color: rgb(74, 31, 34);
-            height: 120px;
-            text-align: center;
-         }
-
-         .header h2 {
-            margin: 0;
-            padding-top: 40px;
-         }
-
-         .menu {
-            width: 200px;
-            vertical-align: top;
-         }
-
-         ul {
-            list-style-type: none;
-            padding: 10px;
-         }
-
-         ul li {
-            margin: 10px 0;
-         }
-
-         a {
-            text-decoration: none;
-            color: blue;
-         }
-
-         a:hover {
-            color: red;
-         }
-
-         /* BIAR IFRAME FULL */
-         iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-         }
-
-         /* BIAR ROW ISI NGAMBIL SISA TINGGI */
-         .content-row {
-            height: 100%;
-         }
-
-         .footer {
-            height: 40px;
-            text-align: center;
-         }
-      </style>
    </head>
+   <body bgcolor="#eeeeee" leftmargin="0" topmargin="0">
+      <br><br>
+      <center>
+         <table width="950" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+            <tr>
+               <td colspan="2" height="120" bgcolor="#4a1f22" align="center" valign="middle">
+                  <h1><font color="#ffffff" face="Arial">WEB SAYA</font></h1>
+               </td>
+            </tr>
 
-   <body>
-      <table border="2">
-         <!-- HEADER -->
-         <tr>
-            <td colspan="2" class="header">
-               <h2>SELAMAT DATANG DI WEB RAY</h2>
-            </td>
-         </tr>
+            <tr>
+               <td width="220" valign="top" bgcolor="#f4f4f4">
+                  <br>
+                  <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                     <tr>
+                        <td>
+                           <font face="Arial" size="4" color="#4a1f22"><b>MENU</b></font>
+                           <hr color="#4a1f22" size="1">
+                           <br>
+                           <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                              <tr><td bgcolor="#e0e0e0"><b><font face="Arial"><a href="home.html" target="konten"><font color="#0000ff">Home</font></a></font></b></td></tr>
+                              <tr><td height="5"></td></tr>
+                              <tr><td bgcolor="#e0e0e0"><b><font face="Arial"><a href="profil.html" target="konten"><font color="#0000ff">Profile</font></a></font></b></td></tr>
+                              <tr><td height="5"></td></tr>
+                              <tr><td bgcolor="#e0e0e0"><b><font face="Arial"><a href="latihan_1.html" target="konten"><font color="#0000ff">Latihan 1</font></a></font></b></td></tr>
+                              <tr><td height="5"></td></tr>
+                              <tr><td bgcolor="#e0e0e0"><b><font face="Arial"><a href="latihan2.html" target="konten"><font color="#0000ff">Latihan 2</font></a></font></b></td></tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
 
-         <!-- ISI -->
-         <tr class="content-row">
-            <!-- MENU -->
-            <td class="menu">
-               <ul>
-                  <li><a href="home.html" target="konten">Home</a></li>
-                  <li><a href="profil.html" target="konten">Profil</a></li>
-                  <li>
-                     <a href="latihan_1.html" target="konten">Latihan 1</a>
-                  </li>
-                  <li><a href="latihan2.html" target="konten">Latihan 2</a></li>
-               </ul>
-            </td>
+               <td valign="top" height="600">
+                  <iframe name="konten" src="home.html" width="100%" height="100%" frameborder="0"></iframe>
+               </td>
+            </tr>
 
-            <!-- KONTEN -->
-            <td>
-               <iframe name="konten" src="home.html"> </iframe>
-            </td>
-         </tr>
-
-         <!-- FOOTER -->
-         <tr>
-            <td colspan="2" class="footer">©ray casey</td>
-         </tr>
-      </table>
+            <tr>
+               <td colspan="2" height="40" bgcolor="#cccccc" align="center" valign="middle">
+                  <b><font face="Arial" size="2" color="#333333">MADE BY RAY CASEY - 231011402705</font></b>
+               </td>
+            </tr>
+         </table>
+      </center>
+      <br><br>
    </body>
 </html>
